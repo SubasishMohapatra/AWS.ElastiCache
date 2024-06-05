@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{2C5A234A-6B49-480E-861B-06032B151995}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElastiCache.Client", "ElastiCache.Client\ElastiCache.Client.csproj", "{B1DFA7C8-E436-4B58-984B-C07574C30271}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.ElastiCache", "AWS.ElastiCache\AWS.ElastiCache.csproj", "{44795842-5C11-41FD-816F-B047A4F0A725}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{42DC1FDF-45DE-479C-9B46-E6838DB5F417}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SecretsManager.Core", "AWS.SecretsManager.Core\AWS.SecretsManager.Core.csproj", "{BB655C50-F194-4E99-84DB-C9A3EBF7E39C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C5A234A-6B49-480E-861B-06032B151995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5A234A-6B49-480E-861B-06032B151995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5A234A-6B49-480E-861B-06032B151995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5A234A-6B49-480E-861B-06032B151995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1DFA7C8-E436-4B58-984B-C07574C30271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1DFA7C8-E436-4B58-984B-C07574C30271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1DFA7C8-E436-4B58-984B-C07574C30271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1DFA7C8-E436-4B58-984B-C07574C30271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44795842-5C11-41FD-816F-B047A4F0A725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44795842-5C11-41FD-816F-B047A4F0A725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44795842-5C11-41FD-816F-B047A4F0A725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44795842-5C11-41FD-816F-B047A4F0A725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42DC1FDF-45DE-479C-9B46-E6838DB5F417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DC1FDF-45DE-479C-9B46-E6838DB5F417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DC1FDF-45DE-479C-9B46-E6838DB5F417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DC1FDF-45DE-479C-9B46-E6838DB5F417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB655C50-F194-4E99-84DB-C9A3EBF7E39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB655C50-F194-4E99-84DB-C9A3EBF7E39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB655C50-F194-4E99-84DB-C9A3EBF7E39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB655C50-F194-4E99-84DB-C9A3EBF7E39C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E38D9106-1C17-436A-88EB-A847DBF226E4}
+	EndGlobalSection
+EndGlobal
